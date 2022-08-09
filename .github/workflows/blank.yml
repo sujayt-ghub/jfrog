@@ -43,13 +43,13 @@ jobs:
       - run: |
          # Ping the server
          jfrog rt ping --url=http://192.168.0.121:8082/artifactory
-      # uses: advancedcsg-open/action-jfrog-cli@313e1c521402e7239d3facaf9b039f01a4e95e25
-      - uses: advancedcsg-open/action-jfrog-cli@v1.2.0
+      - name: publish to artifactory
+        uses: advancedcsg-open/action-jfrog-cli@master
         with:
         # URL of Artifactory instance
           url: http://192.168.0.121:8082/artifactory/
           # Type of authentication to use. Must be one of username, apikey or accesstoken. Defaults to apikey
-          credentials type: apikey
+          credentials type: 'apikey'
           # Artifactory API Key. Must be supplied when credentials type is apikey
           apikey: AKCp8nFvgbrsm3eng3CiV6dBLgjLJzSswMj4vBHsCHztEoPuAwudniwFstWMNRb5GhJqynsae
 
