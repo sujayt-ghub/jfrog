@@ -47,6 +47,6 @@ jobs:
       - name: JFrog CLI
         # You may pin to the exact commit or the version.
         # uses: Deepakanandrao/jfrog-cli@25346328751ee784df9acb5911fdf3858805fa35
-        uses: Deepakanandrao/jfrog-cli@v3
+      - uses: Deepakanandrao/jfrog-cli@v3
         with:
             jfrog rt ping
