@@ -41,4 +41,4 @@ jobs:
       - uses: jfrog/setup-jfrog-cli@v1
       - run: |
          # Ping the server
-         jfrog rt ping --url=http://192.168.0.121:8082/artifactoryg
+         jfrog rt ping --url=http://192.168.0.121:8082/artifactory
