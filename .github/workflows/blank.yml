@@ -42,25 +42,15 @@ jobs:
       - run: |
          # Ping the server
          jfrog rt ping --url=http://192.168.0.121:8082/artifactory
-      - name: action-upload-bintray
+      - name: jFrog CLI for Artifactory
       # You may pin to the exact commit or the version.
-      # uses: bpicode/github-action-upload-bintray@70edc40120a5d085fb36b67a1867a330ff26a42e
-        uses: bpicode/github-action-upload-bintray@v0.9.0
+      # uses: advancedcsg-open/action-jfrog-cli@313e1c521402e7239d3facaf9b039f01a4e95e25
+        uses: advancedcsg-open/action-jfrog-cli@v1.2.0
         with:
-        # Path to the file that should be uploaded
-         file: test2.txt 
-         # URL of the Bintray API server
-         api_url: http://192.168.0.121:8082/artifactory/repo-local/
-         # Username for API usage
-         api_user: admin
-         # Key for API usage, it can be obtained from the user profile page
-         api_key: AKCp8nFvgbrsm3eng3CiV6dBLgjLJzSswMj4vBHsCHztEoPuAwudniwFstWMNRb5GhJqynsae
+        # URL of Artifactory instance
+          url: http://192.168.0.121:8082/artifactory/
+          # Type of authentication to use. Must be one of username, apikey or accesstoken. Defaults to apikey
+          credentials type: apikey
+          # Artifactory API Key. Must be supplied when credentials type is apikey
+          apikey: AKCp8nFvgbrsm3eng3CiV6dBLgjLJzSswMj4vBHsCHztEoPuAwudniwFstWMNRb5GhJqynsae
 
-   
-         # Name of the repository
-         repository: repo-local
-         # Name of the package
-         package: test2.txt
-         # Version of the package
-         version: 1
-   
