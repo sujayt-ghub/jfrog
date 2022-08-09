@@ -43,8 +43,6 @@ jobs:
       - run: |
          # Ping the server
          jfrog rt ping --url=http://192.168.0.121:8082/artifactory
-      - name: jFrog CLI for Artifactory
-      # You may pin to the exact commit or the version.
       # uses: advancedcsg-open/action-jfrog-cli@313e1c521402e7239d3facaf9b039f01a4e95e25
       - uses: advancedcsg-open/action-jfrog-cli@v1.2.0
         with:
