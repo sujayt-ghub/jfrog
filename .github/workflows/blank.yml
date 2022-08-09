@@ -42,7 +42,7 @@ jobs:
       - run: |
          # Ping the server
          jfrog rt ping --url=http://192.168.0.121:8082/artifactory
-       - name: action-upload-bintray
+      - name: action-upload-bintray
       # You may pin to the exact commit or the version.
      # uses: bpicode/github-action-upload-bintray@70edc40120a5d085fb36b67a1867a330ff26a42e
       - uses: bpicode/github-action-upload-bintray@v0.9.0
