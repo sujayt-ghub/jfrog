@@ -42,4 +42,5 @@ jobs:
       - run: |
          # Ping the server
          jfrog rt ping --url=http://192.168.0.121:8082/artifactory
+         # test build
          jfrog rt u testbuild.txt generic-local --url=http://192.168.0.121:8082/artifactory/
