@@ -54,7 +54,7 @@ jobs:
          # Username for API usage
          api_user: admin
          # Key for API usage, it can be obtained from the user profile page
-         api_key: eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJuRHQzMDlOVm1NcUNFQzhkRTJFWXFJdEVoc0MwZW5jTlI0R0Nzd2RpZVFzIn0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZzl4d2txMGUwczV0MTY3eWE3a2gwNWg0XC91c2Vyc1wvYWRtaW4iLCJzY3AiOiJhcHBsaWVkLXBlcm1pc3Npb25zXC9hZG1pbiIsImF1ZCI6IipAKiIsImlzcyI6ImpmZmVAMDAwIiwiZXhwIjoxNjkxNTY2NjQ5LCJpYXQiOjE2NjAwMzA2NDksImp0aSI6ImFiMWU4N2JkLTE4MzctNDAwZC1iNmIyLTMzZDg1YTMwNTI3OSJ9.eqDYvRaS4LokoWLIn9T48n9srGHrTI58LqbOJna3T5wn_9uI8LSysYFCxUbReOm66-MLU1iZWwJ9QJiCzgqIXhdOe9gdC-bnv4-EAuI7Z7Docytw1-gkoQr0kBgOUsTq6mPG06UV5GzZMWccMUqlfDwIjtpOlHxB1ZaW6e9OswsAcoHNs1J7f_oB6NOMU_TljBhXHNhkyi460s8xgSUwdBqWiN6pqlTT7pCGorRFtRmb1V-E9lQZ3O9RGlLvVwjniF8NmUiX7plwDd8ZKpdO0oC8nsIeIDQgPSVLbVHFNlzz8CxGxcdlqi_zveR3CGL0xGbpyWkE4QGkEIfrl4zapA
+         api_key: AKCp8nFvgbrsm3eng3CiV6dBLgjLJzSswMj4vBHsCHztEoPuAwudniwFstWMNRb5GhJqynsae
 
    
          # Name of the repository
